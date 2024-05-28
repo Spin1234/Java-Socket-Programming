@@ -1,7 +1,7 @@
 # Java-Socket-Programming
 ### Java Clint-Server connection: 
 
-## Server Side java code:
+## Server Side java code: (EchoServer.java)
 
 ```java
 import java.io.*;
@@ -30,7 +30,7 @@ public class EchoServer {
 }
 ```
 
-## Clint side java code:
+## Clint side java code: (EchoClint.java)
 
 ```java
 import java.io.*;
@@ -58,3 +58,5 @@ public class EchoClint {
     }
 }
 ```
+
+### Always run ser side code first and then run the clint side code into different terminal.
