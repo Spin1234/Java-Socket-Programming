@@ -59,4 +59,10 @@ public class EchoClint {
 }
 ```
 
+### To establish a connection connection between two computers we need a socket in both the ends(Clint, server). But server doesn't have a socket initially rather it has a server socket. This server socket waits for request from client, and if it accepts request from clint then only it creates a socket in server side.
+
+### Socket has two streams as input stream and output stream. When we want to send data from c1 to c2, then we need to write the data into output stream of c1 socket. And for sending data from c2 to c1 we need to write data into the output stream of c2 socket.
+
+## A socket is a java object.
+
 > Always run server side code first and then run the clint side code into different terminal.
